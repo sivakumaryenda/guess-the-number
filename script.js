@@ -25,10 +25,7 @@ document.querySelector(".click").addEventListener("click", function () {
         document.querySelector(".message").textContent = "🛬 Too Low";
         score--;
         document.querySelector(".score").textContent = score;
-        if (score > highScore) {
-          highScore = score;
-          document.querySelector(".highscore").textContent = highScore;
-        }
+      
       } else {
         document.querySelector(".message").textContent =
           "Better Luck Next Time 💥";
@@ -39,10 +36,7 @@ document.querySelector(".click").addEventListener("click", function () {
         document.querySelector(".message").textContent = "✈️ Too High";
         score--;
         document.querySelector(".score").textContent = score;
-        if (score > highScore) {
-          highScore = score;
-          document.querySelector(".highscore").textContent = highScore;
-        }
+       
       } else {
         document.querySelector(".message").textContent =
           "Better Luck Next Time 💥";
